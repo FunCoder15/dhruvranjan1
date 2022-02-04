@@ -137,6 +137,10 @@ div.nav button{
     position: relative;
     left: auto;   
 }
+.nav button:hover{
+    width: auto;
+    height: auto;
+}
 div.nav button a{
     text-decoration: none;
     color: white;
@@ -180,6 +184,11 @@ div.container{
     position: relative;
     left: 0;
     float: none;
+}
+iframe:hover{
+    width: 95vw;
+    height: 26vh;
+    z-index: 1;
 }
 
 }
