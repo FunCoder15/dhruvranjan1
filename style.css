@@ -5,10 +5,11 @@
     font-family: 'Basic', sans-serif;
 }
 body{
-    background-image: url(backgroundImage.png);
+    background-image: url(backgroundImage.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    background-size: cover;
 }
 
 /* -----------header---------- */
@@ -103,7 +104,7 @@ footer p{
 @media only screen and (max-width: 500px) {
 
 body{
-    background-image: url(backgroundImage.png);
+    background-image: url(backgroundImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
